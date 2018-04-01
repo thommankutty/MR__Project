@@ -1,0 +1,5 @@
+Each camera provides features such as a full frame shutter and electronic exposure time control.
+Exposure start, exposure time, and charge readout can be controlled by parameters transmitted to the camera via the Bassler pylon API and the GigE interface. 
+There are also parameters available to set the camera for single frame acquisition or continuous frame acquisition. 
+Exposure start can also be controlled via an externally generated hardware trigger (ExTrig) signal. 
+The ExTrig signal facilitates periodic or non-periodic acquisition start. Modes are available that allow the length of exposure time to be directly controlled by the ExTrig signal or to be set for a pre-programmed period of time
