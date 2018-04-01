@@ -1,0 +1,2 @@
+C:\Users\Sree\Desktop\Projects\BV-MR-Application\02 VS\App\BV MR\BV MR.csproj;x86
+C:\Users\Sree\Desktop\Projects\BV-MR-Application\02 VS\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
