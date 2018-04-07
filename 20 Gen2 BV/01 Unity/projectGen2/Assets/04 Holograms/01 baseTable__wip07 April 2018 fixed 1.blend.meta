@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: 2a32bf1749c1dec408b3b384e1e639bc
+timeCreated: 1523079804
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: 01_mounting_bracket
+    100004: 01_Optics_mount_assy
+    100006: 02_Z_Axis-BVe1_Optics_Assy
+    100008: 02_Z_Axis-BVe1_Optics_Assy_HexScrews_001
+    100010: 03_BVe1_Optics_Assy-Hybrid
+    100012: 05_lightHeadBase
+    100014: 05_lightHeadCover
+    100016: 05_lightHeadCover_001
+    100018: 05_lightHeads
+    100020: 10_Linear_Table
+    100022: 11_mouldTool
+    100024: Cube
+    100026: Plane_001
+    400000: //RootNode
+    400002: 01_mounting_bracket
+    400004: 01_Optics_mount_assy
+    400006: 02_Z_Axis-BVe1_Optics_Assy
+    400008: 02_Z_Axis-BVe1_Optics_Assy_HexScrews_001
+    400010: 03_BVe1_Optics_Assy-Hybrid
+    400012: 05_lightHeadBase
+    400014: 05_lightHeadCover
+    400016: 05_lightHeadCover_001
+    400018: 05_lightHeads
+    400020: 10_Linear_Table
+    400022: 11_mouldTool
+    400024: Cube
+    400026: Plane_001
+    2100000: unnamed
+    2300000: 01_mounting_bracket
+    2300002: 01_Optics_mount_assy
+    2300004: 02_Z_Axis-BVe1_Optics_Assy
+    2300006: 02_Z_Axis-BVe1_Optics_Assy_HexScrews_001
+    2300008: 03_BVe1_Optics_Assy-Hybrid
+    2300010: 05_lightHeadBase
+    2300012: 05_lightHeadCover
+    2300014: 05_lightHeadCover_001
+    2300016: 05_lightHeads
+    2300018: 10_Linear_Table
+    2300020: 11_mouldTool
+    2300022: Cube
+    2300024: Plane_001
+    3300000: 01_mounting_bracket
+    3300002: 01_Optics_mount_assy
+    3300004: 02_Z_Axis-BVe1_Optics_Assy
+    3300006: 02_Z_Axis-BVe1_Optics_Assy_HexScrews_001
+    3300008: 03_BVe1_Optics_Assy-Hybrid
+    3300010: 05_lightHeadBase
+    3300012: 05_lightHeadCover
+    3300014: 05_lightHeadCover_001
+    3300016: 05_lightHeads
+    3300018: 10_Linear_Table
+    3300020: 11_mouldTool
+    3300022: Cube
+    3300024: Plane_001
+    4300000: Cube
+    4300002: 11_mouldTool
+    4300004: Plane_001
+    4300006: 10_Linear_Table
+    4300008: 01_mounting_bracket
+    4300010: 01_Optics_mount_assy
+    4300012: 02_Z_Axis-BVe1_Optics_Assy
+    4300014: 02_Z_Axis-BVe1_Optics_Assy_HexScrews_001
+    4300016: 03_BVe1_Optics_Assy-Hybrid
+    4300018: 05_lightHeadBase
+    4300020: 05_lightHeadCover
+    4300022: 05_lightHeadCover_001
+    4300024: 05_lightHeads
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
