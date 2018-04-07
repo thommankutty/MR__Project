@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/gen2.unity
+- path: Assets/lightTesting.unity
   isLoaded: 1
   isActive: 1
