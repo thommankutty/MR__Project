@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/01 productionFloor.unity
+- path: Assets/02 explodeAssembly.unity
   isLoaded: 1
   isActive: 1
