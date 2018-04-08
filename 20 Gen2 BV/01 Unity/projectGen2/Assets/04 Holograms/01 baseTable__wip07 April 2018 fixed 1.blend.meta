@@ -19,6 +19,7 @@ ModelImporter:
     100022: 11_mouldTool
     100024: Cube
     100026: Plane_001
+    100028: 10_Linear_Table_railings
     400000: //RootNode
     400002: 01_mounting_bracket
     400004: 01_Optics_mount_assy
@@ -33,6 +34,7 @@ ModelImporter:
     400022: 11_mouldTool
     400024: Cube
     400026: Plane_001
+    400028: 10_Linear_Table_railings
     2100000: unnamed
     2300000: 01_mounting_bracket
     2300002: 01_Optics_mount_assy
@@ -47,6 +49,7 @@ ModelImporter:
     2300020: 11_mouldTool
     2300022: Cube
     2300024: Plane_001
+    2300026: 10_Linear_Table_railings
     3300000: 01_mounting_bracket
     3300002: 01_Optics_mount_assy
     3300004: 02_Z_Axis-BVe1_Optics_Assy
@@ -60,6 +63,7 @@ ModelImporter:
     3300020: 11_mouldTool
     3300022: Cube
     3300024: Plane_001
+    3300026: 10_Linear_Table_railings
     4300000: Cube
     4300002: 11_mouldTool
     4300004: Plane_001
@@ -73,6 +77,7 @@ ModelImporter:
     4300020: 05_lightHeadCover
     4300022: 05_lightHeadCover_001
     4300024: 05_lightHeads
+    4300026: 10_Linear_Table_railings
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
