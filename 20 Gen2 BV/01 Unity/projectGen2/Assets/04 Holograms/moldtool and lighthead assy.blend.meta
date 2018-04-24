@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: 0f5df895aca024ba3b1f2e5abaf15286
+timeCreated: 1523719542
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 20_moldTool
+    100002: 21_mold_tool_glass_pane
+    100004: 30_lightHead
+    100006: 31_lightHead_cyclinders
+    100008: 32_lightHead_cylinder_cover_008
+    100010: 33_lighthead_cover
+    100012: 34_lighthead_baseplate
+    100014: //RootNode
+    400000: 20_moldTool
+    400002: 21_mold_tool_glass_pane
+    400004: 30_lightHead
+    400006: 31_lightHead_cyclinders
+    400008: 32_lightHead_cylinder_cover_008
+    400010: 33_lighthead_cover
+    400012: 34_lighthead_baseplate
+    400014: //RootNode
+    2100000: unnamed
+    2300000: 20_moldTool
+    2300002: 21_mold_tool_glass_pane
+    2300004: 30_lightHead
+    2300006: 31_lightHead_cyclinders
+    2300008: 32_lightHead_cylinder_cover_008
+    2300010: 33_lighthead_cover
+    2300012: 34_lighthead_baseplate
+    3300000: 20_moldTool
+    3300002: 21_mold_tool_glass_pane
+    3300004: 30_lightHead
+    3300006: 31_lightHead_cyclinders
+    3300008: 32_lightHead_cylinder_cover_008
+    3300010: 33_lighthead_cover
+    3300012: 34_lighthead_baseplate
+    4300000: 30_lightHead
+    4300002: 34_lighthead_baseplate
+    4300004: 33_lighthead_cover
+    4300006: 31_lightHead_cyclinders
+    4300008: 20_moldTool
+    4300010: 32_lightHead_cylinder_cover_008
+    4300012: 21_mold_tool_glass_pane
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
