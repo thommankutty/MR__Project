@@ -9,10 +9,6 @@ public class BV1_toggleAnimation_inOut : MonoBehaviour {
 	Ray ray;
 	RaycastHit hit;
 
-	public void PlayLEDLightsAnimation()
-	{
-		anim.SetBool("21BV1cameraAnimation", !anim.GetBool("21BV1cameraAnimation") );
-	}
 
 
 	// Use this for initialization
@@ -33,6 +29,8 @@ public class BV1_toggleAnimation_inOut : MonoBehaviour {
 			if (hit.collider.name == "playAnimation") 
 			{
 				anim.Play ("21BV1cameraAnimation");
+				//play bv1LightHeadOut
+				anim.Play ("bv1LightHeadOut");
 			}
 		}
 		
