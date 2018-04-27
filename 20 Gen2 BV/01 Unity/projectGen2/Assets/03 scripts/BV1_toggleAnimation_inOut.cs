@@ -30,7 +30,8 @@ public class BV1_toggleAnimation_inOut : MonoBehaviour {
 			{
 				anim.Play ("21BV1cameraAnimation");
 				//play bv1LightHeadOut
-				anim.Play ("bv1LightHeadOut");
+				anim.Play ("31bv1LightHeadOut");
+				Debug.Log ("play bv1lightHeadOut");
 			}
 		}
 		
@@ -42,6 +43,7 @@ public class BV1_toggleAnimation_inOut : MonoBehaviour {
 			if (hit.collider.name == "playAnimation") 
 			{
 				anim.Play ("21BV1Animation_reset");
+				anim.Play("31bv1lightHeadReset");
 			}
 		}
 

@@ -501,7 +501,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 19c8a037b1e421e438e6b4ecc9d3bcd5, type: 2}
+  - {fileID: 2100000, guid: c2ae3be6d52eba641b1ea5ff0d971b52, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1190,7 +1190,7 @@ Animator:
   m_GameObject: {fileID: 940470862}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3f9aa5df1f7aa4bbd8f67f3bc74375fb, type: 2}
+  m_Controller: {fileID: 9100000, guid: 553c9488c3f1642ae84a42de8f66de98, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2153,7 +2153,7 @@ Animator:
   m_GameObject: {fileID: 1440975688}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 28dbdb6e9be0d4b6a904a64397567aed, type: 2}
+  m_Controller: {fileID: 9100000, guid: 24f97b95491d04113af7ca6769fb26f0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2349,7 +2349,7 @@ Animator:
   m_GameObject: {fileID: 1526591450}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7604ab012574043f08ca173e18061b56, type: 2}
+  m_Controller: {fileID: 9100000, guid: 44a92ff77f7454f9fb99d65ab0b8d493, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3084,6 +3084,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2134221852}
+  - component: {fileID: 2134221853}
   m_Layer: 0
   m_Name: 20 moldTool and GlassPane
   m_TagString: Untagged
@@ -3098,7 +3099,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2134221851}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.497, y: 0.91430867, z: 1.93}
+  m_LocalPosition: {x: -0.497, y: 0.9143087, z: 1.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1115708925}
@@ -3106,3 +3107,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2134221853
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2134221851}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 89f45faf22d904f3dbb07c4309cbb763, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
