@@ -47,7 +47,22 @@ public class BV1_toggleAnimation_inOut : MonoBehaviour {
 			}
 		}
 
-		
-	}
+        if (Input.GetKeyDown("a"))
+        {
+            anim.Play("21BV1cameraAnimation");
+            //play bv1LightHeadOut
+            anim.Play("31bv1LightHeadOut");
+            Debug.Log("play bv1lightHeadOut");
+        };
+
+        if (Input.GetKeyDown("s"))
+        {
+            anim.Play("21BV1Animation_reset");
+            anim.Play("31bv1lightHeadReset");
+        }
+
+
+
+    }
 }
 

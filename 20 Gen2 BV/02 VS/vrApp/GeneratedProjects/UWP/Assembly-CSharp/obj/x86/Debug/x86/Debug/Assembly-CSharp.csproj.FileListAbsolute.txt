@@ -1,0 +1,2 @@
+C:\Users\Sree\Desktop\GitHub\20 Gen2 BV\02 VS\vrApp\GeneratedProjects\UWP\Assembly-CSharp\obj\x86\Debug\x86\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Sree\Desktop\GitHub\20 Gen2 BV\02 VS\vrApp\GeneratedProjects\UWP\Assembly-CSharp\obj\x86\Debug\x86\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
