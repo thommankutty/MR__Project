@@ -1,0 +1,1 @@
+C:\Users\Sree\Desktop\GitHub\30 Gen2 BV HoloLens\01 Unity\build\x86\holoLensProject\holoLensProject.csproj;x86
