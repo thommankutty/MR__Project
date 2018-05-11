@@ -7,10 +7,10 @@
 # Default behavior is to never overwrite files
 holoLens Gen2 Application.sln: modified
 GeneratedProjects\UWP\Assembly-CSharp\project.json: 1D02BC64BAC0D041019673A1C4C51737
-holoLens Gen2 Application\App.cs: 4E8151402BBAA95246D2CAE8FEB2457C
-holoLens Gen2 Application\holoLens Gen2 Application.csproj: A62D90547EE99715EC059AA3882EC416
+holoLens Gen2 Application\App.cs: modified
+holoLens Gen2 Application\holoLens Gen2 Application.csproj: 8FDB69464721147649935D9CF2E85EAC
 holoLens Gen2 Application\holoLens Gen2 Application.csproj.user: modified
-holoLens Gen2 Application\Package.appxmanifest: 867BB3014A31E19CE2350679EDAC9C92
+holoLens Gen2 Application\Package.appxmanifest: BA95E7BF066EB9F552FB91BCBCAA5496
 holoLens Gen2 Application\project.json: 1D02BC64BAC0D041019673A1C4C51737
 holoLens Gen2 Application\Assets\SplashScreen.scale-200.png: A85C1D7624B6902CF8CEBD6F0200A826
 holoLens Gen2 Application\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084

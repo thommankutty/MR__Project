@@ -22,7 +22,10 @@ namespace Academy
             // If this hologram has an audio clip, add an AudioSource with this clip.
             if (TargetFeedbackSound != null)
             {
-                audioGameObject = new GameObject();
+                audioGameObject = new GameObject
+                {
+                    name = "TagalongDismissedSoundEffect"
+                };
                 audioGameObject.transform.position = gameObject.transform.position;
                 audioSource = audioGameObject.AddComponent<AudioSource>();
 

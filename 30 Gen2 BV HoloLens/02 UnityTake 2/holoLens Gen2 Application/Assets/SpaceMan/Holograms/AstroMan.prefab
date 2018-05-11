@@ -1231,6 +1231,7 @@ GameObject:
   - component: {fileID: 6507140}
   - component: {fileID: 6510336}
   - component: {fileID: 11497524}
+  - component: {fileID: 114390738514492630}
   m_Layer: 0
   m_Name: ChestButton_Center
   m_TagString: Untagged
@@ -1368,6 +1369,7 @@ GameObject:
   - component: {fileID: 487370}
   - component: {fileID: 9502782}
   - component: {fileID: 114000011581590588}
+  - component: {fileID: 114880225069996574}
   m_Layer: 0
   m_Name: AstroMan
   m_TagString: Untagged
@@ -6433,7 +6435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetFeedbackSound: {fileID: 8300000, guid: 026ad6633e9b4e9408dfce89dfb4b16d, type: 3}
-  interactibleAction: {fileID: 0}
+  interactibleAction: {fileID: 114390738514492630}
 --- !u!135 &13503420
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -16483,6 +16485,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OpaqueDisplay: 1
   TransparentDisplay: 0
+--- !u!114 &114390738514492630
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 149204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9c9272366811643a9a60fce3978273, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToTagalong: {fileID: 184316, guid: 604d3361bf8ce5a449cab6365160b0eb, type: 2}
+--- !u!114 &114880225069996574
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8935ace479d0326448a944043ae26665, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  expandedModel: {fileID: 0}
+  expandModelSound: {fileID: 8300000, guid: 0e92e0b0ba13e7943a4a4a1071841eb7, type: 3}
 --- !u!114 &114929552618566590
 MonoBehaviour:
   m_ObjectHideFlags: 1

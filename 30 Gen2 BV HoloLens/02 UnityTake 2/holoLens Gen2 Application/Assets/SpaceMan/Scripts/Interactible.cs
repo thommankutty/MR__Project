@@ -53,14 +53,12 @@ namespace Academy
             }
         }
 
-        /* TODO: DEVELOPER CODING EXERCISE 2.d */
-
         void IFocusable.OnFocusEnter()
         {
             for (int i = 0; i < defaultMaterials.Length; i++)
             {
-                // 2.d: Uncomment the below line to highlight the material when gaze enters.
-
+                // Highlight the material when gaze enters.
+                defaultMaterials[i].EnableKeyword("_ENVIRONMENT_COLORING");
             }
         }
 
@@ -68,8 +66,8 @@ namespace Academy
         {
             for (int i = 0; i < defaultMaterials.Length; i++)
             {
-                // 2.d: Uncomment the below line to remove highlight on material when gaze exits.
-
+                // Remove highlight on material when gaze exits.
+                defaultMaterials[i].DisableKeyword("_ENVIRONMENT_COLORING");
             }
         }
 
@@ -81,12 +79,11 @@ namespace Academy
                 audioSource.Play();
             }
 
-            /* TODO: DEVELOPER CODING EXERCISE 6.a */
-            // 6.a: Uncomment the lines below to perform a Tagalong action.
-            //if (interactibleAction != null)
-            //{
-            //    interactibleAction.PerformAction();
-            //}
+            // Perform a Tagalong action.
+            if (interactibleAction != null)
+            {
+                interactibleAction.PerformAction();
+            }
         }
 
         private void OnDestroy()
