@@ -122,7 +122,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 08422b9b08fbe8f43af950b9ef3c7f7f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.77
+      value: 2.775
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 08422b9b08fbe8f43af950b9ef3c7f7f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -275,8 +275,13 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
+<<<<<<< HEAD
+  m_Size: {x: 0.25850525, y: 1.1112676, z: 0.5683132}
+  m_Center: {x: -0.3116569, y: 1.6986845, z: 1.6093882}
+=======
   m_Size: {x: 0.3753451, y: 1.2885605, z: 0.6595485}
   m_Center: {x: -0.31519938, y: 1.6212047, z: 1.5794895}
+>>>>>>> 750161458d9ee95c2c1ada7b527c6da5ddd6f7bf
 --- !u!23 &1021607171
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -311,6 +316,18 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1021607172
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1021607168}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.22696653, y: 0.4910601, z: 0.041574385}
+  m_Center: {x: -0.30250746, y: 2.4943855, z: 1.59923}
 --- !u!1001 &1027044333
 Prefab:
   m_ObjectHideFlags: 0
