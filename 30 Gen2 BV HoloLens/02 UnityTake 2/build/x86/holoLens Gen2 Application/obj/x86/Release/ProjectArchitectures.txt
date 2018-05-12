@@ -1,0 +1,2 @@
+E:\GitHub\MR__Project\30 Gen2 BV HoloLens\02 UnityTake 2\build\x86\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+E:\GitHub\MR__Project\30 Gen2 BV HoloLens\02 UnityTake 2\build\x86\holoLens Gen2 Application\holoLens Gen2 Application.csproj;x86
