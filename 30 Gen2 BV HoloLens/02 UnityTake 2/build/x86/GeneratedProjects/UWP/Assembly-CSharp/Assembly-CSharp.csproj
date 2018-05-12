@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{acc84058-b4ae-4acf-bf23-dd81c57ecec5}</ProjectGuid>
+    <ProjectGuid>{5e0ed4f9-9328-4d67-8702-9db245d31d1c}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -131,10 +131,6 @@
   </ItemGroup>
   <ItemGroup>
 
-    <Reference Include="UnityEngine.TilemapModule">
-      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.TilemapModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
       <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.TextRenderingModule.dll</HintPath>
       <Private>False</Private>
@@ -143,20 +139,28 @@
       <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.UIElementsModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.TerrainModule">
       <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.TerrainModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.SpriteMaskModule">
-      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.SpriteMaskModule.dll</HintPath>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.UIElementsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.SharedInternalsModule">
       <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.SpriteMaskModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.StyleSheetsModule">
@@ -167,20 +171,20 @@
       <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.SpriteShapeModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UIModule">
-      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.UIModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.VRModule">
-      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.VRModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.VideoModule">
       <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.VideoModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.VehiclesModule">
       <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.VRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="WinRTLegacy">
@@ -195,20 +199,20 @@
       <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.WebModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.UnityConnectModule">
-      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.UnityConnectModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsModule">
       <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UNETModule">
       <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.UNETModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.UnityConnectModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
@@ -223,24 +227,24 @@
       <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.ScreenCaptureModule">
-      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.ScreenCaptureModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.ClothModule">
-      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.ClothModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.AudioModule">
-      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.AudioModule.dll</HintPath>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.PhysicsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule">
       <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.AssetBundleModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.DirectorModule">
-      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.DirectorModule.dll</HintPath>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.AudioModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CrashReportingModule">
@@ -251,36 +255,28 @@
       <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.CoreModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.ARModule">
-      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.ARModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.AccessibilityModule">
-      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.AccessibilityModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.AnimationModule.dll</HintPath>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.ClothModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.AIModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.dll</HintPath>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.AccessibilityModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.ParticleSystemModule">
-      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.ParticleSystemModule.dll</HintPath>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.InputModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.ParticlesLegacyModule">
       <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.ParticlesLegacyModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.PhysicsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.Physics2DModule">
@@ -291,20 +287,24 @@
       <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.PerformanceReportingModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.JSONSerializeModule">
-      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.JSONSerializeModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.GridModule">
-      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.GridModule.dll</HintPath>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.ParticleSystemModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.GameCenterModule">
       <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.GameCenterModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.InputModule">
-      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.InputModule.dll</HintPath>
+    <Reference Include="UnityEngine">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.GridModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
@@ -313,6 +313,10 @@
     </Reference>
     <Reference Include="UnityEngine.ImageConversionModule">
       <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.Timeline">
@@ -347,6 +351,10 @@
       <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.Networking.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="GLTFSerializationUWP">
+      <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\GLTFSerializationUWP.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <SDKReference Include="WindowsDesktop, Version=10.0.16299.0"/>
     <SDKReference Include="WindowsIoT, Version=10.0.16299.0"/>
     <SDKReference Include="WindowsMobile, Version=10.0.16299.0"/>
@@ -368,8 +376,8 @@
     <Compile Include="$(UnityProjectDir)Assets\01 origamiProject\Holograms\Support\AniCrane\AnimationSpeed.cs">
       <Link>01 origamiProject\Holograms\Support\AniCrane\AnimationSpeed.cs</Link>
     </Compile>
-    <Compile Include="$(UnityProjectDir)Assets\01 origamiProject\Holograms\Support\Fitbox\Fitbox.cs">
-      <Link>01 origamiProject\Holograms\Support\Fitbox\Fitbox.cs</Link>
+    <Compile Include="$(UnityProjectDir)Assets\01 origamiProject\Holograms\Support\Fitbox\Fitbox_1.cs">
+      <Link>01 origamiProject\Holograms\Support\Fitbox\Fitbox_1.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\01 origamiProject\Holograms\Support\Fitbox\Interpolator.cs">
       <Link>01 origamiProject\Holograms\Support\Fitbox\Interpolator.cs</Link>
@@ -383,6 +391,1068 @@
     <Compile Include="$(UnityProjectDir)Assets\01 origamiProject\Holograms\Support\Underworld\UnderworldSound.cs">
       <Link>01 origamiProject\Holograms\Support\Underworld\UnderworldSound.cs</Link>
     </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\Holograms\Support\AstroMan\SetRendererSettings.cs">
+      <Link>SpaceMan\Holograms\Support\AstroMan\SetRendererSettings.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\Holograms\Support\Fitbox\Fitbox.cs">
+      <Link>SpaceMan\Holograms\Support\Fitbox\Fitbox.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Boundary\Scripts\BoundaryManager.cs">
+      <Link>SpaceMan\HoloToolkit\Boundary\Scripts\BoundaryManager.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Boundary\Scripts\SceneContentAdjuster.cs">
+      <Link>SpaceMan\HoloToolkit\Boundary\Scripts\SceneContentAdjuster.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\CalibrationSpace.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\CalibrationSpace.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\CameraCache.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\CameraCache.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\ClipPlane.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\ClipPlane.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\CrossPlatform\MetroHandleRef.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\CrossPlatform\MetroHandleRef.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\CrossPlatform\Reflection\ReflectionExtensions.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\CrossPlatform\Reflection\ReflectionExtensions.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\CrossPlatform\Reflection\TypeUtils.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\CrossPlatform\Reflection\TypeUtils.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\CrossPlatform\SystemException.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\CrossPlatform\SystemException.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\Extensions\ActionExtensions.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\Extensions\ActionExtensions.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\Extensions\BoundsExtensions.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\Extensions\BoundsExtensions.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\Extensions\CameraExtensions.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\Extensions\CameraExtensions.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\Extensions\Color32Extensions.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\Extensions\Color32Extensions.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\Extensions\ComponentExtensions.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\Extensions\ComponentExtensions.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\Extensions\EnumerableExtensions.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\Extensions\EnumerableExtensions.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\Extensions\EventSystemExtensions.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\Extensions\EventSystemExtensions.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\Extensions\Extensions.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\Extensions\Extensions.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\Extensions\GameObjectExtensions.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\Extensions\GameObjectExtensions.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\Extensions\InteractionSourceExtensions.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\Extensions\InteractionSourceExtensions.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\Extensions\LayerExtensions.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\Extensions\LayerExtensions.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\Extensions\MathfExtensions.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\Extensions\MathfExtensions.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\Extensions\TransformExtensions.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\Extensions\TransformExtensions.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\Extensions\VectorExtensions.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\Extensions\VectorExtensions.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\HoverLight.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\HoverLight.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\Int3.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\Int3.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\InterpolatedValues\InterpolatedColor.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\InterpolatedValues\InterpolatedColor.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\InterpolatedValues\InterpolatedFloat.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\InterpolatedValues\InterpolatedFloat.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\InterpolatedValues\InterpolatedQuaternion.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\InterpolatedValues\InterpolatedQuaternion.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\InterpolatedValues\InterpolatedValue.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\InterpolatedValues\InterpolatedValue.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\InterpolatedValues\InterpolatedVector2.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\InterpolatedValues\InterpolatedVector2.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\InterpolatedValues\InterpolatedVector3.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\InterpolatedValues\InterpolatedVector3.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\InterpolatedValues\QuaternionInterpolated.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\InterpolatedValues\QuaternionInterpolated.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\InterpolatedValues\Vector3Interpolated.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\InterpolatedValues\Vector3Interpolated.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\InterpolationUtilities.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\InterpolationUtilities.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\Interpolator.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\Interpolator.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\MathUtils.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\MathUtils.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\RaycastResultComparer.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\RaycastResultComparer.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\SingleInstance.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\SingleInstance.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\Singleton.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\Singleton.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\StartAwareBehaviour.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\StartAwareBehaviour.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\StartAwareSingleton.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\StartAwareSingleton.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Common\Scripts\WorldAnchorManager.cs">
+      <Link>SpaceMan\HoloToolkit\Common\Scripts\WorldAnchorManager.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Cursor\AnimatedCursor.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Cursor\AnimatedCursor.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Cursor\AnimatorParameter.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Cursor\AnimatorParameter.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Cursor\AnimCursorDatum.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Cursor\AnimCursorDatum.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Cursor\Cursor.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Cursor\Cursor.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Cursor\CursorModifier.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Cursor\CursorModifier.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Cursor\CursorStateEnum.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Cursor\CursorStateEnum.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Cursor\ICursor.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Cursor\ICursor.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Cursor\ICursorModifier.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Cursor\ICursorModifier.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Cursor\InteractiveMeshCursor.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Cursor\InteractiveMeshCursor.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Cursor\MeshCursor.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Cursor\MeshCursor.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Cursor\ObjectCursor.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Cursor\ObjectCursor.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Cursor\SpriteCursor.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Cursor\SpriteCursor.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Focus\FocusDetails.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Focus\FocusDetails.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Focus\FocusManager.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Focus\FocusManager.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Focus\InputSourcePointer.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Focus\InputSourcePointer.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Focus\IPointingSource.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Focus\IPointingSource.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Focus\PointerResult.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Focus\PointerResult.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Focus\RayStep.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Focus\RayStep.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Focus\RegisterPointableCanvas.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Focus\RegisterPointableCanvas.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Focus\SimpleSinglePointerSelector.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Focus\SimpleSinglePointerSelector.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\GamePad\GamePadHandlerBase.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\GamePad\GamePadHandlerBase.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\GamePad\XboxController\XboxControllerData.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\GamePad\XboxController\XboxControllerData.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\GamePad\XboxController\XboxControllerHandlerBase.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\GamePad\XboxController\XboxControllerHandlerBase.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\GamePad\XboxController\XboxControllerMapping.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\GamePad\XboxController\XboxControllerMapping.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\GamePad\XboxController\XboxControllerMappingTypes.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\GamePad\XboxController\XboxControllerMappingTypes.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Gaze\BaseRayStabilizer.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Gaze\BaseRayStabilizer.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Gaze\GazeManager.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Gaze\GazeManager.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Gaze\GazeStabilizer.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Gaze\GazeStabilizer.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputEventData\BaseInputEventData.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputEventData\BaseInputEventData.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputEventData\DictationEventData.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputEventData\DictationEventData.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputEventData\GamePadEventData.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputEventData\GamePadEventData.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputEventData\HoldEventData.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputEventData\HoldEventData.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputEventData\InputClickedEventData.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputEventData\InputClickedEventData.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputEventData\InputEventData.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputEventData\InputEventData.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputEventData\InputPositionEventData.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputEventData\InputPositionEventData.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputEventData\ManipulationEventData.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputEventData\ManipulationEventData.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputEventData\NavigationEventData.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputEventData\NavigationEventData.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputEventData\PointerInputEventData.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputEventData\PointerInputEventData.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputEventData\PointerSpecificEventData.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputEventData\PointerSpecificEventData.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputEventData\SelectPressedEventData.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputEventData\SelectPressedEventData.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputEventData\SourcePositionEventData.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputEventData\SourcePositionEventData.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputEventData\SourceRotationEventData.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputEventData\SourceRotationEventData.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputEventData\SourceStateEventData.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputEventData\SourceStateEventData.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputEventData\SpeechEventData.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputEventData\SpeechEventData.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputEventData\SpeechKeywordRecognizedEventData.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputEventData\SpeechKeywordRecognizedEventData.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputEventData\XboxControllerEventData.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputEventData\XboxControllerEventData.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IControllerInputHandler.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IControllerInputHandler.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IControllerTouchpadHandler.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IControllerTouchpadHandler.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IDictationHandler.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IDictationHandler.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IFocusable.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IFocusable.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IGamePadHandler.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IGamePadHandler.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IHoldHandler.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IHoldHandler.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IInputClickHandler.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IInputClickHandler.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IInputHandler.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IInputHandler.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IManipulationHandler.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IManipulationHandler.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\INavigationHandler.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\INavigationHandler.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IPointerSpecificFocusable.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IPointerSpecificFocusable.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\ISelectHandler.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\ISelectHandler.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\ISourcePositionHandler.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\ISourcePositionHandler.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\ISourceRotationHandler.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\ISourceRotationHandler.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\ISourceStateHandler.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\ISourceStateHandler.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\ISpeechHandler.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\ISpeechHandler.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IXboxControllerHandler.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputHandlers\IXboxControllerHandler.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputSources\BaseInputSource.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputSources\BaseInputSource.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputSources\CustomInputSource.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputSources\CustomInputSource.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputSources\DictationInputManager.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputSources\DictationInputManager.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputSources\GamepadInput.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputSources\GamepadInput.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputSources\GamePadInputSource.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputSources\GamePadInputSource.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputSources\IInputSource.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputSources\IInputSource.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputSources\IInputSourceInfoProvider.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputSources\IInputSourceInfoProvider.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputSources\InputSourceInfo.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputSources\InputSourceInfo.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputSources\InteractionInputSource.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputSources\InteractionInputSource.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputSources\InteractionSourceInfo.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputSources\InteractionSourceInfo.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputSources\InteractionSourcePressInfo.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputSources\InteractionSourcePressInfo.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputSources\RawInteractionInputSource.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputSources\RawInteractionInputSource.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputSources\SpeechInputSource.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputSources\SpeechInputSource.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputSources\SupportedInputInfo.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputSources\SupportedInputInfo.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputSources\TouchscreenInputSource.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputSources\TouchscreenInputSource.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\InputSources\XboxControllerInputSource.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\InputSources\XboxControllerInputSource.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\AttachToController.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\AttachToController.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\AxisController.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\AxisController.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\ButtonController.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\ButtonController.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\CameraMotionInfo.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\CameraMotionInfo.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\ControllerFinder.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\ControllerFinder.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\FadeScript.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\FadeScript.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\AffineConstraintEnums.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\AffineConstraintEnums.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\CustomInputControl.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\CustomInputControl.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\CustomInputSelector.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\CustomInputSelector.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\DebugInteractionSourcePose.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\DebugInteractionSourcePose.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\DebugInteractionSourceState.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\DebugInteractionSourceState.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\HandDraggable.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\HandDraggable.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\ManualGazeControl.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\ManualGazeControl.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\SpeechInputHandler.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\SpeechInputHandler.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\TriggerButton.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\TriggerButton.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\TwoHandManipulatable.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\TwoHandManipulatable.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\TwoHandMoveLogic.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\TwoHandMoveLogic.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\TwoHandRotateLogic.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\TwoHandRotateLogic.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\TwoHandScaleLogic.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\Interactions\TwoHandScaleLogic.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\KeywordAndKeyCode.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\KeywordAndKeyCode.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\Managers\HandGuidance.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\Managers\HandGuidance.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\Managers\InputManager.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\Managers\InputManager.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\Managers\KeyboardManager.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\Managers\KeyboardManager.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\Managers\MixedRealityCameraManager.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\Managers\MixedRealityCameraManager.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\Managers\MixedRealityTeleport.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\Managers\MixedRealityTeleport.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\MicrophoneHelper.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\MicrophoneHelper.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\MicStream.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\MicStream.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\MotionControllerInfo.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\MotionControllerInfo.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\MotionControllerVisualizer.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\MotionControllerVisualizer.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\SetGlobalListener.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\SetGlobalListener.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Input\Scripts\Utilities\VectorRollingStatistics.cs">
+      <Link>SpaceMan\HoloToolkit\Input\Scripts\Utilities\VectorRollingStatistics.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\SpatialMapping\Scripts\DataEventArgs.cs">
+      <Link>SpaceMan\HoloToolkit\SpatialMapping\Scripts\DataEventArgs.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\SpatialMapping\Scripts\ObjectSurfaceObserver.cs">
+      <Link>SpaceMan\HoloToolkit\SpatialMapping\Scripts\ObjectSurfaceObserver.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\SpatialMapping\Scripts\PropertyChangedEventArgsEx.cs">
+      <Link>SpaceMan\HoloToolkit\SpatialMapping\Scripts\PropertyChangedEventArgsEx.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\SpatialMapping\Scripts\RemoteMapping\FileSurfaceObserver.cs">
+      <Link>SpaceMan\HoloToolkit\SpatialMapping\Scripts\RemoteMapping\FileSurfaceObserver.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\SpatialMapping\Scripts\RemoteMapping\MeshSaver.cs">
+      <Link>SpaceMan\HoloToolkit\SpatialMapping\Scripts\RemoteMapping\MeshSaver.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\SpatialMapping\Scripts\RemoteMapping\RemoteMappingManager.cs">
+      <Link>SpaceMan\HoloToolkit\SpatialMapping\Scripts\RemoteMapping\RemoteMappingManager.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\SpatialMapping\Scripts\RemoteMapping\RemoteMeshSource.cs">
+      <Link>SpaceMan\HoloToolkit\SpatialMapping\Scripts\RemoteMapping\RemoteMeshSource.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\SpatialMapping\Scripts\RemoteMapping\RemoteMeshTarget.cs">
+      <Link>SpaceMan\HoloToolkit\SpatialMapping\Scripts\RemoteMapping\RemoteMeshTarget.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\SpatialMapping\Scripts\RemoteMapping\SimpleMeshSerializer.cs">
+      <Link>SpaceMan\HoloToolkit\SpatialMapping\Scripts\RemoteMapping\SimpleMeshSerializer.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\SpatialMapping\Scripts\SpatialMappingManager.cs">
+      <Link>SpaceMan\HoloToolkit\SpatialMapping\Scripts\SpatialMappingManager.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\SpatialMapping\Scripts\SpatialMappingObserver.cs">
+      <Link>SpaceMan\HoloToolkit\SpatialMapping\Scripts\SpatialMappingObserver.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\SpatialMapping\Scripts\SpatialMappingSource.cs">
+      <Link>SpaceMan\HoloToolkit\SpatialMapping\Scripts\SpatialMappingSource.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\SpatialMapping\Scripts\SpatialProcessing\PlaneFinding.cs">
+      <Link>SpaceMan\HoloToolkit\SpatialMapping\Scripts\SpatialProcessing\PlaneFinding.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\SpatialMapping\Scripts\SpatialProcessing\RemoveSurfaceVertices.cs">
+      <Link>SpaceMan\HoloToolkit\SpatialMapping\Scripts\SpatialProcessing\RemoveSurfaceVertices.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\SpatialMapping\Scripts\SpatialProcessing\SurfaceMeshesToPlanes.cs">
+      <Link>SpaceMan\HoloToolkit\SpatialMapping\Scripts\SpatialProcessing\SurfaceMeshesToPlanes.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\SpatialMapping\Scripts\SpatialProcessing\SurfacePlane.cs">
+      <Link>SpaceMan\HoloToolkit\SpatialMapping\Scripts\SpatialProcessing\SurfacePlane.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\SpatialMapping\Scripts\TapToPlace.cs">
+      <Link>SpaceMan\HoloToolkit\SpatialMapping\Scripts\TapToPlace.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\AdaptiveQuality\AdaptiveQuality.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\AdaptiveQuality\AdaptiveQuality.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\AdaptiveQuality\AdaptiveViewport.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\AdaptiveQuality\AdaptiveViewport.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\ApplicationViewManager.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\ApplicationViewManager.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\AtlasReferenceUpdater\AtlasPrefabReference.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\AtlasReferenceUpdater\AtlasPrefabReference.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\AnimationCurveDefaultAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\AnimationCurveDefaultAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\DocLinkAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\DocLinkAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\DrawLastAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\DrawLastAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\DrawOverrideAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\DrawOverrideAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\DropDownComponentAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\DropDownComponentAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\DropDownGameObjectAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\DropDownGameObjectAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\EditablePropAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\EditablePropAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\EnumCheckboxAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\EnumCheckboxAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\EnumFlagsAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\EnumFlagsAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\FeatureInProgressAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\FeatureInProgressAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\GradientDefaultAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\GradientDefaultAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\HideInMRTKInspector.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\HideInMRTKInspector.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\MaterialPropertyAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\MaterialPropertyAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\OpenLocalFileAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\OpenLocalFileAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\OpenLocalFolderAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\OpenLocalFolderAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\RangePropAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\RangePropAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\SaveLocalFileAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\SaveLocalFileAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\SceneComponentAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\SceneComponentAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\SceneGameObjectAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\SceneGameObjectAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\SetIndentAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\SetIndentAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\ShowIfAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\ShowIfAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\ShowIfBoolValueAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\ShowIfBoolValueAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\ShowIfEnumValueAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\ShowIfEnumValueAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\ShowIfNullAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\ShowIfNullAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\TextAreaProp.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\TextAreaProp.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\TutorialAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\TutorialAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\UseWithAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\UseWithAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\ValidateUnityObjectAttribute.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Attributes\ValidateUnityObjectAttribute.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Billboard.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Billboard.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\BitManipulator.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\BitManipulator.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\CanvasHelper.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\CanvasHelper.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\CircularBuffer.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\CircularBuffer.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\DebugPanel.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\DebugPanel.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\DebugPanelControllerInfo.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\DebugPanelControllerInfo.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\DebugPanelFPSCounter.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\DebugPanelFPSCounter.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\DirectionIndicator.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\DirectionIndicator.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\DisplayDependentObjectActivator.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\DisplayDependentObjectActivator.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\FadeManager.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\FadeManager.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\FileSystemHelper.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\FileSystemHelper.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\FixedAngularSize.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\FixedAngularSize.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\FpsDisplay.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\FpsDisplay.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\GLTF\Scripts\Async\AsyncAction.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\GLTF\Scripts\Async\AsyncAction.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\GLTF\Scripts\Cache\AssetCache.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\GLTF\Scripts\Cache\AssetCache.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\GLTF\Scripts\Cache\MaterialCacheData.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\GLTF\Scripts\Cache\MaterialCacheData.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\GLTF\Scripts\Cache\MeshCacheData.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\GLTF\Scripts\Cache\MeshCacheData.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\GLTF\Scripts\Exceptions.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\GLTF\Scripts\Exceptions.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\GLTF\Scripts\Extensions\SchemaExtensions.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\GLTF\Scripts\Extensions\SchemaExtensions.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\GLTF\Scripts\GLTFComponent.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\GLTF\Scripts\GLTFComponent.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\GLTF\Scripts\GLTFSceneImporter.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\GLTF\Scripts\GLTFSceneImporter.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\GLTF\Scripts\GLTFUnityHelpers.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\GLTF\Scripts\GLTFUnityHelpers.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\GpuTiming\GpuTiming.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\GpuTiming\GpuTiming.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\GpuTiming\GpuTimingCamera.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\GpuTiming\GpuTimingCamera.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\HashCodes.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\HashCodes.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\HeadsetAdjustment.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\HeadsetAdjustment.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\HeadsUpDirectionIndicator.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\HeadsUpDirectionIndicator.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\InputMappingAxisUtility.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\InputMappingAxisUtility.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Inspectors\MRTKEditor.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Inspectors\MRTKEditor.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Inspectors\ProfileInspector.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Inspectors\ProfileInspector.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\NearPlaneFade.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\NearPlaneFade.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\PriorityQueue.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\PriorityQueue.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\RaycastHelper.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\RaycastHelper.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\RaycastResultHelper.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\RaycastResultHelper.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\ReadOnlyHashSet.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\ReadOnlyHashSet.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\SceneLauncher.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\SceneLauncher.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\SceneLauncherButton.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\SceneLauncherButton.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\SimpleTagalong.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\SimpleTagalong.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Solvers\Solver.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Solvers\Solver.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Solvers\SolverBodyLock.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Solvers\SolverBodyLock.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Solvers\SolverConstantViewSize.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Solvers\SolverConstantViewSize.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Solvers\SolverHandler.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Solvers\SolverHandler.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Solvers\SolverMomentumizer.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Solvers\SolverMomentumizer.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Solvers\SolverRadialView.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Solvers\SolverRadialView.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Solvers\SolverSurfaceMagnetism.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Solvers\SolverSurfaceMagnetism.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\SortingLayerOverride.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\SortingLayerOverride.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\SphereBasedTagalong.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\SphereBasedTagalong.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\StabilizationPlaneModifier.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\StabilizationPlaneModifier.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Tagalong.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Tagalong.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\TextToSpeech.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\TextToSpeech.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Timer.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Timer.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\TimerScheduler.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\TimerScheduler.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\ToggleDebugWindow.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\ToggleDebugWindow.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\UnityEventFloat.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\UnityEventFloat.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\Utils.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\Utils.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\Utilities\Scripts\WindowsApiChecker.cs">
+      <Link>SpaceMan\HoloToolkit\Utilities\Scripts\WindowsApiChecker.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\AppBar\AppBar.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\AppBar\AppBar.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\AppBar\AppBarButton.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\AppBar\AppBarButton.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\AxisSlider.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\AxisSlider.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\BoundingBoxes\BoundingBox.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\BoundingBoxes\BoundingBox.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\BoundingBoxes\BoundingBoxGizmo.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\BoundingBoxes\BoundingBoxGizmo.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\BoundingBoxes\BoundingBoxGizmoHandle.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\BoundingBoxes\BoundingBoxGizmoHandle.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\BoundingBoxes\BoundingBoxGizmoHandleAxisToAffectEnum.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\BoundingBoxes\BoundingBoxGizmoHandleAxisToAffectEnum.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\BoundingBoxes\BoundingBoxGizmoHandleHandMotionTypeEnum.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\BoundingBoxes\BoundingBoxGizmoHandleHandMotionTypeEnum.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\BoundingBoxes\BoundingBoxGizmoHandleRotationTypeEnum.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\BoundingBoxes\BoundingBoxGizmoHandleRotationTypeEnum.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\BoundingBoxes\BoundingBoxGizmoHandleTransformTypeEnum.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\BoundingBoxes\BoundingBoxGizmoHandleTransformTypeEnum.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\BoundingBoxes\BoundingBoxGizmoShell.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\BoundingBoxes\BoundingBoxGizmoShell.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\BoundingBoxes\BoundingBoxRig.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\BoundingBoxes\BoundingBoxRig.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\BoundingBoxes\Duplicator.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\BoundingBoxes\Duplicator.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\AnimatorControllerAction.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\AnimatorControllerAction.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\AnimButton.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\AnimButton.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\AnimControllerButton.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\AnimControllerButton.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\Button.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\Button.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonDatums\MeshButtonDatum.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonDatums\MeshButtonDatum.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonDatums\SpriteButtonDatum.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonDatums\SpriteButtonDatum.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonEnums\ButtonStateEnum.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonEnums\ButtonStateEnum.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonEnums\ToggleBehaviorEnum.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonEnums\ToggleBehaviorEnum.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonIconProfile.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonIconProfile.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonIconProfileTexture.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonIconProfileTexture.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonLocalizedText.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonLocalizedText.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonMeshProfile.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonMeshProfile.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonProfile.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonProfile.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonSoundProfile.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonSoundProfile.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonSounds.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonSounds.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonTextProfile.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\ButtonTextProfile.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\CompoundButton.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\CompoundButton.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\CompoundButtonAnim.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\CompoundButtonAnim.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\CompoundButtonIcon.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\CompoundButtonIcon.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\CompoundButtonMesh.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\CompoundButtonMesh.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\CompoundButtonSounds.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\CompoundButtonSounds.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\CompoundButtonSpeech.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\CompoundButtonSpeech.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\CompoundButtonText.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\CompoundButtonText.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\CompoundButtonToggle.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\CompoundButtonToggle.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\MeshButton.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\MeshButton.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\ObjectButton.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\ObjectButton.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\ProfileBase.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\ProfileBase.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\ProfileButtonBase.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\ProfileButtonBase.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Buttons\SpriteButton.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Buttons\SpriteButton.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\CapsLockHighlight.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\CapsLockHighlight.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Collections\CollectionEnums\LayoutTypeEnum.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Collections\CollectionEnums\LayoutTypeEnum.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Collections\CollectionEnums\OrientTypeEnum.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Collections\CollectionEnums\OrientTypeEnum.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Collections\CollectionEnums\SortTypeEnum.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Collections\CollectionEnums\SortTypeEnum.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Collections\CollectionEnums\SurfaceTypeEnum.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Collections\CollectionEnums\SurfaceTypeEnum.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Collections\CollectionNode.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Collections\CollectionNode.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Collections\ObjectCollection.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Collections\ObjectCollection.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Collections\ObjectCollectionDynamic.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Collections\ObjectCollectionDynamic.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Distorters\Distorter.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Distorters\Distorter.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Distorters\DistorterBulge.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Distorters\DistorterBulge.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Distorters\DistorterGravity.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Distorters\DistorterGravity.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Distorters\DistorterSimplex.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Distorters\DistorterSimplex.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Distorters\DistorterSphere.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Distorters\DistorterSphere.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Distorters\DistorterWiggly.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Distorters\DistorterWiggly.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Distorters\FastSimplexNoise.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Distorters\FastSimplexNoise.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Keyboard.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Keyboard.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\KeyboardInputField.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\KeyboardInputField.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\KeyboardKeyFunc.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\KeyboardKeyFunc.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\KeyboardValueKey.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\KeyboardValueKey.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Lines\Bezier.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Lines\Bezier.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Lines\Ellipse.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Lines\Ellipse.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Lines\Line.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Lines\Line.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Lines\LineBase.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Lines\LineBase.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Lines\LineBaseEditor.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Lines\LineBaseEditor.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Lines\LineMeshes.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Lines\LineMeshes.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Lines\LineObjectCollection.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Lines\LineObjectCollection.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Lines\LineObjectFollower.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Lines\LineObjectFollower.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Lines\LineObjectSwarm.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Lines\LineObjectSwarm.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Lines\LineParticles.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Lines\LineParticles.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Lines\LineRendererBase.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Lines\LineRendererBase.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Lines\LineStripMesh.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Lines\LineStripMesh.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Lines\LineUnity.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Lines\LineUnity.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Lines\LineUtility.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Lines\LineUtility.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Lines\Parabola.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Lines\Parabola.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Lines\Rectangle.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Lines\Rectangle.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Lines\Spline.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Lines\Spline.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Lines\SplinePoint.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Lines\SplinePoint.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Receivers\InteractionReceiver.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Receivers\InteractionReceiver.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\Receivers\ToggleActiveReceiver.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\Receivers\ToggleActiveReceiver.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\SliderInputField.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\SliderInputField.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\SymbolDisableHighlight.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\SymbolDisableHighlight.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\SymbolKeyboard.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\SymbolKeyboard.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\UICollection.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\UICollection.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\UsabilityScaler.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\UsabilityScaler.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\HoloToolkit\UX\Scripts\UsabilityUtilities.cs">
+      <Link>SpaceMan\HoloToolkit\UX\Scripts\UsabilityUtilities.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\Scripts\AstronautManager.cs">
+      <Link>SpaceMan\Scripts\AstronautManager.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\Scripts\CursorFeedback.cs">
+      <Link>SpaceMan\Scripts\CursorFeedback.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\Scripts\DismissOnSelect.cs">
+      <Link>SpaceMan\Scripts\DismissOnSelect.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\Scripts\ExpandModel.cs">
+      <Link>SpaceMan\Scripts\ExpandModel.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\Scripts\GestureAction.cs">
+      <Link>SpaceMan\Scripts\GestureAction.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\Scripts\Interactible.cs">
+      <Link>SpaceMan\Scripts\Interactible.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\Scripts\InteractibleAction.cs">
+      <Link>SpaceMan\Scripts\InteractibleAction.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\SpaceMan\Scripts\TagalongAction.cs">
+      <Link>SpaceMan\Scripts\TagalongAction.cs</Link>
+    </Compile>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
@@ -395,7 +1465,7 @@
     <Message Importance="high" Text="Running SerializationWeaver..." />
     <Move SourceFiles="@(IntermediateAssembly)" DestinationFolder="$(TargetDir)Unprocessed" OverwriteReadOnlyFiles="true" />
     <Move SourceFiles="@(IntermediateAssembly-&gt;'%(RelativeDir)%(Filename).pdb')" DestinationFolder="$(TargetDir)Unprocessed" Condition="Exists('@(IntermediateAssembly-&gt;'%(RelativeDir)%(Filename).pdb')')" OverwriteReadOnlyFiles="true" />
-    <Exec Command="&quot;$(UnityWSAToolsDir)SerializationWeaver\SerializationWeaver.exe&quot; &quot;$(TargetDir)Unprocessed\$(TargetFileName)&quot; &quot;-pdb&quot; &quot;-verbose&quot; &quot;-unity-engine=$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.CoreModule.dll&quot; &quot;$([System.IO.Path]::GetFullPath('$(IntermediateOutputPath)').TrimEnd('\'))&quot; &quot;-lock=$([System.IO.Path]::Combine('$(ProjectDir)', 'project.lock.json'))&quot; &quot;@E:\GitHub\MR__Project\30 Gen2 BV HoloLens\02 UnityTake 2\build\x86\GeneratedProjects\UWP\Assembly-CSharp\SerializationWeaverArgs.txt&quot; &quot;-additionalAssemblyPath=$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed&quot; &quot;-unity-networking=$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.Networking.dll&quot;" />
+    <Exec Command="&quot;$(UnityWSAToolsDir)SerializationWeaver\SerializationWeaver.exe&quot; &quot;$(TargetDir)Unprocessed\$(TargetFileName)&quot; &quot;-pdb&quot; &quot;-verbose&quot; &quot;-unity-engine=$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.CoreModule.dll&quot; &quot;$([System.IO.Path]::GetFullPath('$(IntermediateOutputPath)').TrimEnd('\'))&quot; &quot;-lock=$([System.IO.Path]::Combine('$(ProjectDir)', 'project.lock.json'))&quot; &quot;@C:\Users\Sree\Desktop\GitHub\30 Gen2 BV HoloLens\02 UnityTake 2\build\x86\GeneratedProjects\UWP\Assembly-CSharp\SerializationWeaverArgs.txt&quot; &quot;-additionalAssemblyPath=$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed&quot; &quot;-unity-networking=$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.Networking.dll&quot;" />
     <Message Importance="high" Text="SerializationWeaver done." />
   </Target>
   <PropertyGroup>
