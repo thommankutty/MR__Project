@@ -1,0 +1,9 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <UnityWSASolutionName>holoLens Gen2 Application</UnityWSASolutionName>
+        <UnityWSASolutionDir>C:\Users\Sree\Desktop\GitHub\30 Gen2 BV HoloLens\02 UnityTake 2\build\12 may 2018\</UnityWSASolutionDir>
+        <UnityProjectDir>C:\Users\Sree\Desktop\GitHub\30 Gen2 BV HoloLens\02 UnityTake 2\holoLens Gen2 Application\</UnityProjectDir>
+        <UnityWSAPlayerDir>C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
+        <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
+    </PropertyGroup>
+</Project>
